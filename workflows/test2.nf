@@ -6,7 +6,7 @@ params.input_fasta_index = "gs://genomics-public-data/resources/broad/hg38/v0/Ho
 params.sample_name = "NA12878"
 sample_name=params.sample_name
 
-process CramToBam {
+process CramToBam2 {
 
     container="us.gcr.io/broad-gatk/gatk:latest"
 
@@ -31,7 +31,7 @@ process CramToBam {
 }
 
 workflow {
-    CramToBam(
+    CramToBam2(
         file(params.input_dict),
         file(params.input_fasta),
         file(params.input_fasta_index),
