@@ -1,4 +1,9 @@
 
+manifest {
+    name = 'nextflow_test'
+    version = '1.0.0'
+}
+
 // Misc Parameters
 params.COHORT = "AOU"
 
