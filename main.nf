@@ -6,5 +6,6 @@ include { test2 } from './workflows/test2.nf'
 
 
 workflow  {
-    nextflow_test()
+    test1()
+    test2()
 }
