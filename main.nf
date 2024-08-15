@@ -15,11 +15,7 @@ log.info """\
          ==========================
          Cohort Type  : ${params.COHORT}
          Study Design : ${params.STUDY_DESIGN}
-         --
-         run as       : ${workflow.commandLine}
-         started at   : ${workflow.start}
-         config files : ${workflow.configFiles}
-         container    : ${workflow.containerEngine}
+         
          ==========================
          """
          .stripIndent()
