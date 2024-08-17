@@ -6,11 +6,7 @@ params.input_fasta_index = "gs://genomics-public-data/resources/broad/hg38/v0/Ho
 params.sample_name = "NA12878"
 sample_name=params.sample_name
 
-process CramToBam2 {
-
-    container="us.gcr.io/broad-gatk/gatk:latest"
-    cpus = 2
-    memory = '4 GB'
+process CramToBam2 {    
 
     input:
     path input_dict
