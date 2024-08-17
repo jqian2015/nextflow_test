@@ -32,7 +32,7 @@ workflow {
         params.sample_name
     )
     
-    ValidateBam22(CramToBam2.out.bam_files)
+    ValidateBam2(CramToBam2.out.bam_files)
 
     // If you want to view the output of ValidateBam
     // ValidateBam.out.view()
