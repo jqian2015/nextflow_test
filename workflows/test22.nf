@@ -9,6 +9,8 @@ sample_name=params.sample_name
 
 process ValidateBam2 {
     container 'broadinstitute/genomes-in-the-cloud:2.3.1-1500064817'
+    cpus = 2
+    memory = '5 GB'
 
     input:
     tuple val(sample_name), path(bam), path(bai)

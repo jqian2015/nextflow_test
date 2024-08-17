@@ -9,6 +9,8 @@ sample_name=params.sample_name
 process CramToBam2 {
 
     container="us.gcr.io/broad-gatk/gatk:latest"
+    cpus = 2
+    memory = '4 GB'
 
     input:
     path input_dict
