@@ -14,3 +14,8 @@ How to run it in the ALLOFUS workbench
 
 ```bash
 nextflow run jqian2015/nextflow_test -r main -c ~/.nextflow/config -profile gls 
+
+
+## about test221/222 branch  
+
+Please go to test221/222 branch to see how to make it work in the ALLOFUS workbench, with or wihtout using extra -profile 
