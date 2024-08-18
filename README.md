@@ -14,7 +14,7 @@ How to run it in the ALLOFUS workbench
 
 ```bash
 nextflow run jqian2015/nextflow_test -r main -c ~/.nextflow/config -profile gls 
-
+```
 
 ## about test221/222 branch  
 
