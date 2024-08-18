@@ -10,7 +10,7 @@ This Nextflow workflow converts a CRAM file to BAM and validates the resulting B
 
 ## Usage, 
 
-How to run it in the ALLOFUS workbench, without using extra -profile
+How to run it in the ALLOFUS workbench,using extra -profile
 
 ```bash
-nextflow run jqian2015/nextflow_test -r test221 -c ~/.nextflow/config -profile gls -with-report execution_report_test221.html 
+nextflow run jqian2015/nextflow_test -r test222 -c ~/.nextflow/config -profile gls,test21,test22 -with-report execution_report_test222.html 
