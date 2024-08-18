@@ -6,9 +6,11 @@ This Nextflow workflow converts a CRAM file to BAM and validates the resulting B
 ## Prerequisites
 
 - Nextflow (21.04.0 or later)
-- Docker
+- allofus config
 
-## Usage
+## Usage, 
+
+How to run it in the ALLOFUS workbench
 
 ```bash
-nextflow run jqian2015/nextflow_test -r main
+nextflow run jqian2015/nextflow_test -r test22 -c ~/.nextflow/config -profile gls 
